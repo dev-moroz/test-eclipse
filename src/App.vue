@@ -3,7 +3,7 @@
 <div class="container">
   <div class="sidebar">
     <div class="menu">
-      <h3 class="w3-bar-item">Menu</h3>
+      <h3>Menu</h3>
       <router-link to="/">List Valute</router-link>
       <router-link to="/converter">Convertor</router-link>
     </div>
