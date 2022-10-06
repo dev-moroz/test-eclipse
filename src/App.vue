@@ -16,18 +16,13 @@
 
 </template>
 <script>
-import { onMounted, ref } from 'vue'
+import { onMounted } from 'vue'
 import { useStore } from 'vuex'
 export default {
   setup(){
 		const store = useStore()
-    const isMobile = ref(false)
 
     onMounted(() => store.dispatch('getValute'))
-	
-		return {
-      isMobile
-		}
 	}
 }
 </script>
